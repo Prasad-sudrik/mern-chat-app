@@ -20,7 +20,7 @@ import io from "socket.io-client";
 // import Lottie from "lottie-react";
 import animationData from "../animations/icons8-typing.gif";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://chat-app-tak-a-tive-sk0h.onrender.com/";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
